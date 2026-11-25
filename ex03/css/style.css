@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #7ec8e3, #0a5c8a);
+    padding: 30px 15px;
+}
+
+.bai-viet {
+    width: 820px;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #0b3d5c;
+    text-align: center;
+}
+
+.sapo {
+    background: #0b3d5c;
+    color: #FFFFFF;
+    font-style: italic;
+    padding: 14px 18px;
+    border-radius: 6px;
+}
+
+img {
+    width: 230px;
+    float: right;
+    margin: 0 0 12px 18px;
+    border-radius: 6px;
+}
+
+.than-bai {
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.than-bai::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0b3d5c;
+    float: left;
+    line-height: 0.85;
+    padding: 0.1rem 0.4rem 0 0;
+}
